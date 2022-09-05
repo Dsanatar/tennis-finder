@@ -1,0 +1,57 @@
+Express:
+https://expressjs.com/en/starter/installing.html
+
+ 
+NodeJS/Express Tutorial:
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+
+ 
+More NodeJS Tutorials:
+https://nodeschool.io/#workshoppers
+
+
+Node and DBs:
+https://blog.risingstack.com/node-js-database-tutorial/
+
+
+Pug (template engine):
+https://pugjs.org/api/getting-started.html
+
+Pug Tutorial:
+https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/
+
+
+Node Security:
+https://blog.risingstack.com/node-js-security-checklist/
+
+ 
+"Modular" code examples:
+https://github.com/browserify/browserify-handbook
+
+ 
+NodeJS Modules:
+https://nodejs.org/api/modules.html#modules_modules
+
+ 
+NPM:
+https://docs.npmjs.com/cli/v8/configuring-npm/package-json
+
+ 
+Callback functions:
+http://callbackhell.com/
+
+ 
+Authentication: https://medium.com/@albert.kim/understanding-user-authentication-in-your-web-app-and-how-to-implement-it-part-1-the-high-level-ab91336ab77c
+ 
+
+GraphQL:
+https://graphql.org/
+
+ 
+List of APIs:
+https://developer.mozilla.org/en-US/docs/Web/API
+
+ 
+Google Maps API
+https://developers.google.com/maps/documentation/urls/get-started
+ 
