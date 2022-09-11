@@ -1,4 +1,14 @@
 extends layout
 
 block layout-content
-    h1 new page
+    body
+        .form 
+            h2 This is the form
+            form(action="/user-prof", method="POST")
+                label(for="name") Name
+                // input#name is equiv to id="name"
+                input#name(type="text", name="name")
+                button(type="submit") submit
+
+        a(href="/")
+            button back

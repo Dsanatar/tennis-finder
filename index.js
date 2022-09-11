@@ -14,12 +14,13 @@ const port = process.env.PORT;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, "public")));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 
 // routes ------------
 
 app.use(function (req, res, next) {
-    console.log('this is a test');
     next();
 })
 
@@ -30,8 +31,12 @@ app.get('/', function(req, res) {
 });
 
 app.get('/user', function(req, res) {
-    res.render("user");
-})
+    res.render("user", {title: "another test"});
+});
+
+app.post('/user-prof', function(req, res) {
+    console.log(req.body)
+});
 
 // special error handling middleware
 // must be "used" last
